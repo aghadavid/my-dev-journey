@@ -7,7 +7,7 @@
 
             <div class="h-[229px]">
                 <h2 class="font-medium mb-[25px]">Information</h2>
-                <ul class="flex flex-col footer">
+                <ul class="flex flex-col footer gap-[1rem]">
                     <li>Main</li>
                     <li>Gallery</li>
                     <li>Projects</li>
@@ -47,17 +47,17 @@
             <div class="flex flex-col ">
                 <h2 class="font-medium mb-[25px]">Social Media</h2>
                 <div class="flex items-center justify-around gap-[50px]">
-                    <div class="h-[20px] w-[20px] overflow-hidden">
-                        <img src="@/assets/footer/facebook.png" alt="" class="object-cover">
+                    <div class="h-[1.25rem] w-[1.25rem] hover:scale-105 cursor-pointer">
+                        <img src="@/assets/footer/facebook.png" alt="" class="object-contain">
                     </div>
-                    <div class="h-[20px] w-[20px] overflow-hidden">
-                        <img src="@/assets/footer/twitter.png" alt="" class="object-cover">
+                    <div class="h-[1.25rem] w-[1.25rem] hover:scale-105 cursor-pointer">
+                        <img src="@/assets/footer/twitter.png" alt="" class="object-contain">
                     </div>
-                    <div class="h-[20px] w-[20px] overflow-hidden">
-                        <img src="@/assets/footer/linkedin.png" alt="" class="object-cover">
+                    <div class="h-[1.25rem] w-[1.25rem] hover:scale-105 cursor-pointer">
+                        <img src="@/assets/footer/linkedin.png" alt="" class="object-contain">
                     </div>
-                    <div class="h-[20px] w-[20px] overflow-hidden">
-                        <img src="@/assets/footer/pininterest.png" alt="" class="object-cover">
+                    <div class="h-[1.25rem] w-[1.25rem] hover:scale-105 cursor-pointer">
+                        <img src="@/assets/footer/pininterest.png" alt="" class="object-contain">
                     </div>
                 </div>
             </div>
@@ -72,15 +72,21 @@
 
 <style scoped>
 .footer {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .footer li {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
     display: flex;
-    align-items: first baseline;
+    align-items: baseline;
+}
+
+.footer li:hover {
+    scale: 105%;
+    cursor: pointer;
 }
 
 </style>

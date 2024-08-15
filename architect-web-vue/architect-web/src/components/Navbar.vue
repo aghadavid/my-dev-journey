@@ -1,12 +1,12 @@
 <template>
-    <div class=" h-[102px] w-full items-center flex justify-around  px-[135px]  ">
+    <div class=" h-[6.4rem] w-full items-center flex justify-around  px-[8.5rem]  ">
         <div class=" w-[45%] h-full items-center flex">
-            <div class=" h-[43.71px] w-[70px]">
-                <img src="@/assets/logo.svg" alt="" class="object-cover">
+            <div class=" h-[2.75rem] w-[4.4rem]">
+                <img src="@/assets/logo.svg" alt="" class="object-contain w-full h-full">
             </div>
         </div>
 
-        <ul class="flex gap-8 w-[55%] h-full items-center text-[16px] font-semibold ">
+        <ul class="flex gap-8 w-[55%] h-full items-center text-[1rem] font-semibold ">
             <RouterLink to="/" active-class="active">
                 <li >MAIN</li>
             </RouterLink >

@@ -2,22 +2,32 @@
     <div class="h w-full flex items-center justify-between mb-[120px] ">
         <div class="flex-1">
             <div>
-                <h1 class="sm:text-[25.6px] sm:leading-[25.6px] md:text-[42.67px] md:leading-[42.67px] lg:text-[64px] lg:leading-[64px] font-light ">PROJECT</h1>
-                <h1 class="sm:text-[25.6px] sm:leading-[25.6px] md:text-[42.67px] md:leading-[42.67px] lg:text-[64px] lg:leading-[64px] font-semibold">lorum</h1>
+                <h1 class="text-[4rem] leading-[4rem] font-light text-[#bdbdbd] ">PROJECT</h1>
+                <h1 class="text-[4rem] leading-[4rem] font-semibold">lorum</h1>
             </div>
-            <div class="flex">
-                <div class="border flex items-center justify-center p-1">
-
+            <div class="flex mt-[5.65rem] gap-[1.45rem]">
+                <div class="border flex items-center justify-center p-1 w-[3.31rem] h-[3.31rem] hover:bg-[#f9f9f9] cursor-pointer "
+                    @click="changeImage(-1)">
                     <img :src="left" alt="">
                 </div>
-                <div class="border flex items-center justify-center p-1">
+                <div class="border flex items-center justify-center p-1 w-[3.31rem] h-[3.31rem] hover:bg-[#f9f9f9] cursor-pointer"
+                    @click="changeImage(+1)">
                     <img :src="right" alt="">
                 </div>
             </div>
+            <div class="w-[8.85rem] h-[3.25rem]  mt-[5.625rem] flex text-[1.5rem] leading-[1.5rem] text-[#bdbdbd]">
+                <div class="flex flex-col ">
+                    <p>0</p>
+                    <p>{{ currentIndex + 1 }}</p>
+                </div>
+                <div class="ml-[1.62rem] mr-[2rem]"><img :src="slash" alt=""></div>
+                <div>0{{ imageList.length }}</div>
+            </div>
         </div>
         <div class="relative flex-1">
-            <div class=" sm:h-[332px] sm:w-[308px] md:h-[553px] md:w-[513px] lg:h-[829px] lg:w-[770px] overflow-hidden ">
-                <img src="@/assets/Rectangle 6.png" alt="" class="object-cover ">
+            <div
+                class=" sm:h-[332px] sm:w-[308px] md:h-[553px] md:w-[513px] lg:h-[829px] lg:w-[770px] overflow-hidden ">
+                <img :src="currentImage" alt="" class="object-cover w-full h-full   h">
                 <router-link to="/projects">
                     <div
                         class=" w-[221.81px] h-[71px]  bg-white p-2 absolute left-0 -bottom-[1px] pl-[20px] hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
@@ -33,6 +43,29 @@
 </template>
 
 <script setup>
+import { ref, computed } from 'vue'
+
 import left from '@/assets/arrow-left.svg'
 import right from '@/assets/arrow-right.svg'
+import main from "@/assets/hero/main.png"
+import main2 from "@/assets/hero/main2.jpg"
+import slash from '@/assets/slash.svg'
+
+const imageList = [main, main2]
+
+const currentIndex = ref(0)
+const currentImage = computed(() => imageList[currentIndex.value])
+
+const changeImage = (steps) => {
+
+    let newIndex = currentIndex.value + steps;
+    if (newIndex < 0) {
+        newIndex = 0;
+    } else if (newIndex >= imageList.length) {
+        newIndex = imageList.length - 1;
+    }
+
+    currentIndex.value = newIndex;
+};
+
 </script>
