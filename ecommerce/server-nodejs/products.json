@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Grifo",
+        "imgUrl": "/assets/sleek lamp.jpg",
+        "description": "A modern and sleek lamp perfect for any desk.",
+        "price": 250000,
+        "quantity": 10
+    },
+    {
+        "name": "Muggo",
+        "imgUrl": "/assets/ergonomic chair.jpg",
+        "description": "An ergonomic chair designed for maximum comfort.",
+        "price": 500000,
+        "quantity": 5
+    },
+    {
+        "name": "Fleto",
+        "imgUrl": "/assets/stylish table.jpg",
+        "description": "A stylish table suitable for dining or working.",
+        "price": 750000,
+        "quantity": 8
+    },
+    {
+        "name": "Zenix",
+        "imgUrl": "/assets/sofa.jpg",
+        "description": "A comfortable sofa with a modern design.",
+        "price": 1000000,
+        "quantity": 3
+    },
+    {
+        "name": "Havoc",
+        "imgUrl": "/assets/bookshelf.jpg",
+        "description": "A spacious bookshelf to organize your books.",
+        "price": 400000,
+        "quantity": 12
+    },
+    {
+        "name": "Luxe",
+        "imgUrl": "/assets/desk.jpg",
+        "description": "A luxurious desk made from high-quality materials.",
+        "price": 600000,
+        "quantity": 7
+    },
+    {
+        "name": "Pulsar",
+        "imgUrl": "/assets/versatile.jpg",
+        "description": "A versatile side table that complements any decor.",
+        "price": 350000,
+        "quantity": 9
+    },
+    {
+        "name": "Velto",
+        "imgUrl": "/assets/armchair",
+        "description": "A modern armchair with a sleek design.",
+        "price": 800000,
+        "quantity": 4
+    },
+    {
+        "name": "Qubix",
+        "imgUrl": "/assets/cofee table.jpg",
+        "description": "A minimalist coffee table with a glass top.",
+        "price": 550000,
+        "quantity": 11
+    },
+    {
+        "name": "Nexus",
+        "imgUrl": "/assets/tv stand.jpg",
+        "description": "A modern TV stand with ample storage space.",
+        "price": 700000,
+        "quantity": 6
+    },
+    {
+        "name": "Stellar",
+        "imgUrl": "/assets/lounge chair.jpg",
+        "description": "A comfortable lounge chair for your living room.",
+        "price": 900000,
+        "quantity": 2
+    },
+    {
+        "name": "Orion",
+        "imgUrl": "/assets/nightstand.jpg",
+        "description": "A compact nightstand with a drawer and shelf.",
+        "price": 300000,
+        "quantity": 15
+    },
+    {
+        "name": "Vortex",
+        "imgUrl": "/assets/stool.jpg",
+        "description": "A chic and modern bar stool for your kitchen.",
+        "price": 450000,
+        "quantity": 8
+    },
+    {
+        "name": "Lynx",
+        "imgUrl": "/assets/pouf.jpg",
+        "description": "A stylish pouf",
+        "price": 400000,
+        "quantity": 13
+    },
+    {
+        "name": "Nebula",
+        "imgUrl": "/assets/dinning chair.jpg",
+        "description": "A sleek dining chair with a comfortable cushion.",
+        "price": 600000,
+        "quantity": 7
+    },
+    {
+        "name": "Zenith",
+        "imgUrl": "/assets/bookshelf geometric.jpg",
+        "description": "A modern bookshelf with a geometric design.",
+        "price": 500000,
+        "quantity": 5
+    },
+    {
+        "name": "Cosmo",
+        "imgUrl": "/assets/sofa-1.jpg",
+        "description": "A comfortable recliner chair for your living room.",
+        "price": 1200000,
+        "quantity": 4
+    },
+    {
+        "name": "Aurora",
+        "imgUrl": "/assets/vanity.jpg",
+        "description": "A stylish vanity table with a large mirror.",
+        "price": 850000,
+        "quantity": 6
+    },
+    {
+        "name": "Titan",
+        "imgUrl": "/assets/wardrobe.jpg",
+        "description": "A sturdy wardrobe with plenty of storage space.",
+        "price": 1500000,
+        "quantity": 2
+    },
+    {
+        "name": "Electra",
+        "imgUrl": "/assets/modern sideboard.jpg",
+        "description": "A modern sideboard with a sleek finish.",
+        "price": 950000,
+        "quantity": 3
+    },
+    {
+        "name": "Nova",
+        "imgUrl": "/assets/tv.jpg",
+        "description": "A stylish and functional TV unit for your living room.",
+        "price": 650000,
+        "quantity": 7
+    },
+    {
+        "name": "Luna",
+        "imgUrl": "/assets/bean bag.jpg",
+        "description": "A comfortable bean bag chair for relaxation.",
+        "price": 250000,
+        "quantity": 12
+    },
+    {
+        "name": "Matrix",
+        "imgUrl": "/assets/shoe rack.jpg",
+        "description": "A modern shoe rack with a minimalist design.",
+        "price": 350000,
+        "quantity": 9
+    },
+    {
+        "name": "Blaze",
+        "imgUrl": "/assets/sleek wall shelf.jpg",
+        "description": "A sleek wall shelf for displaying decor items.",
+        "price": 200000,
+        "quantity": 14
+    }
+]
