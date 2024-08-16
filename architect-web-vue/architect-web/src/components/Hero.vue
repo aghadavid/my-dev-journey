@@ -1,5 +1,5 @@
 <template>
-    <div class="h w-full flex items-center justify-between mb-[120px] ">
+    <div class="h w-full flex items-center justify-between mb-[7.5rem] ">
         <div class="flex-1">
             <div>
                 <h1 class="text-[4rem] leading-[4rem] font-light text-[#bdbdbd] ">PROJECT</h1>
@@ -26,13 +26,13 @@
         </div>
         <div class="relative flex-1">
             <div
-                class=" sm:h-[332px] sm:w-[308px] md:h-[553px] md:w-[513px] lg:h-[829px] lg:w-[770px] overflow-hidden ">
+                class="h-[51.8rem] w-[48.125] overflow-hidden ">
                 <img :src="currentImage" alt="" class="object-cover w-full h-full   h">
                 <router-link to="/projects">
                     <div
-                        class=" w-[221.81px] h-[71px]  bg-white p-2 absolute left-0 -bottom-[1px] pl-[20px] hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
+                        class=" w-[13.875rem] h-[4.438rem]  bg-white p-2 absolute left-0 -bottom-[1px] pl-[1.25rem] hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
                         <div class="flex items-center h-full ">
-                            <h1 class="font-[] text-[12px] mr-[18px] text-[#333333]">VIEW PROJECT</h1>
+                            <h1 class="font-[] text-[0.75rem] mr-[1.125rem] text-[#333333]">VIEW PROJECT</h1>
                             <img :src="right" alt="">
                         </div>
                     </div>

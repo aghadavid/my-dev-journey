@@ -1,10 +1,10 @@
 <template>
-    <div class="px-[135px] w-[1440px] pt-[4rem] mb-16">
-        <div class="w-full h-full  text-[64px] leading-[64px] mb-16 ">
+    <div class="px-[8.5rem] w-[90rem] pt-[4rem] mb-16">
+        <div class="w-full h-full  text-[4rem] leading-[4rem] mb-16 ">
             <h1 class="text-[#BDBDBD] font-light">Sample</h1>
             <h1 class="font-bold ">Project</h1>
         </div>
-        <div class="w-[1170px] flex flex-col gap-[1.875rem] ">
+        <div class="w-[73.125rem] flex flex-col gap-[1.875rem] ">
             <div class="w-full h-[27.188rem]">
                 <img src="@/assets/sample-project/top-image.png" alt="" class="w-full h-full object-cover">
             </div>

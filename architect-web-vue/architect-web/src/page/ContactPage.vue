@@ -11,7 +11,7 @@
             </div>
             <p class="font-bold text-[1.125rem]">512.333.2222</p>
             <p class="text-[1rem] font-light">sampleemail@gmail.com</p>
-            <div class="w-[13.813rem] h-[4.438rem] bg-[#333333] flex items-center justify-center">
+            <div class="w-[13.813rem] h-[4.438rem] bg-[#333333] flex items-center justify-center hover:scale-105 ">
                 <p class="text-white text-[0.75rem] tracking-[20%]">CONTACT US</p>
             </div>
         </div>

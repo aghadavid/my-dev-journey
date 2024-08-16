@@ -1,5 +1,5 @@
 <template>
-    <div class=" px-[135px] w-full flex flex-col items-center gap-4 ">
+    <div class=" px-[8.5rem] w-full flex flex-col items-center gap-4 ">
         <Hero />
         <About />
         <Focus />
